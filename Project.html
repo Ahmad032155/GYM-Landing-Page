@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(image/fitness.jpg);
+        }
+
+        .left {
+            border: 0px solid red;
+            color: white;
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 20px;
+        }
+
+        .left img {
+            width: 50px;
+        }
+
+        .mid {
+            display: block;
+            width: 40%;
+            margin: 20px auto;
+            border: 0px solid red;
+            color: white;
+        }
+
+        .mid li {
+            display: inline-block;
+            padding: 8px 11px;
+            font-size: 22px;
+        }
+
+        .mid li a {
+            text-decoration: none;
+            display: block;
+            color: aliceblue;
+        }
+
+        .mid li a:hover {
+            text-decoration: underline blue;
+            color: blue;
+        }
+
+        .right {
+            border: 0px solid red;
+            color: white;
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 30px;
+        }
+
+        .btn {
+            margin: 0 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid gray;
+            border-radius: 10px;
+            font-size: 15px;
+        }
+
+        .btn:hover {
+            background-color: rgb(77, 73, 73);
+        }
+
+        .container {
+            color: white;
+            border: 0px solid yellow;
+            width: 33%;
+            padding: 75px 75px;
+            margin: 130px 148px;
+            border-radius: 28px;
+        }
+
+        .form-group input {
+            text-align: center;
+            border: 2px solid black;
+            padding: 6px;
+            width: 470px;
+            margin: 8px auto;
+            display: block;
+            font-size: 18px;
+            border-radius: 16px;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            width: 490px;
+            margin: 22px auto;
+            display: block;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="image/gym.jpg" alt="">
+        </div>
+        <div class="mid">
+            <li><a href="">Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Fitness Calculator</a></li>
+            <li><a href="">Contact us</a></li>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>The Best GYM of Town</h1>
+        <form>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Email">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Gender">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
